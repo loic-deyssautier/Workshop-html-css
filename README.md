@@ -6,7 +6,7 @@ HTML is a markup language used to create web pages.
 
 Setting up an HTML file :
 
-Creating an index.html file
+- Creating an index.html file
 
 A tag consists of an opening and closing delimiter:
 ```sh
@@ -18,14 +18,20 @@ Note that a tag does not necessarily have content and can be unique
 ```
 The minimal content of an HTML file:
 
+```sh
+<!DOCTYPE>
+<html>
+    <head>
+    </head>
+</html>
+```
 
-
-    - The <!DOCTYPE> tag is used to indicate the version of the HTML used.
-    - The <html> / </html> tag will contain all the HTML content of the page.
-    - The <head> / </head> tag provides general information about the document (e.g. page title, link to CSS file, etc.).
-    - The <meta ... /> tag is used to place metadata in an HTML document, the charset is used to define the encoding of the page 
-    - The <title> / </title> tag as its name suggests, contains the title of the page.
-    - The <body> / </body> tag contains the content of the web page (it is in this tag that we could add other tags to display content on our web page).
+- The <!DOCTYPE> tag is used to indicate the version of the HTML used.
+- The <html> / </html> tag will contain all the HTML content of the page.
+- The <head> / </head> tag provides general information about the document (e.g. page title, link to CSS file, etc.).
+- The <meta ... /> tag is used to place metadata in an HTML document, the charset is used to define the encoding of the page 
+- The <title> / </title> tag as its name suggests, contains the title of the page.
+- The <body> / </body> tag contains the content of the web page (it is in this tag that we could add other tags to display content on our web page).
 
 
 It is important to know that tags can nest, in the example above, the <html> tag contains the <head> and <body> tag, as for the <head> tag, it contains the <meta> and <title> tag
