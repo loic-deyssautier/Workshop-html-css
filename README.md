@@ -130,7 +130,7 @@ _Warning: some sites do not have a header._
 7. Create a footer in which you will display: © followed by the current year and a name. <br/>
 
 <br/>
-What is CSS :
+## _What is CSS :_
 
 CSS is a computer language used to format an HTML file.
 
@@ -138,27 +138,28 @@ CSS is a computer language used to format an HTML file.
 
 CSS can be placed in a separate file with the .css extension.
 
-To link a CSS file to an HTML document, place a unique <link/> tag with a rel=”stylesheet” attribute and href="file link" in the tag <head>
-
+To link a CSS file to an HTML document, place a unique ``` <link/> ``` tag with a ``` rel=”stylesheet” ``` attribute and ``` href="file link" ``` in the tag ``` <head> ```
+```sh
+<link rel="stylesheet" href="style.css" type="text/css">
+```
 Class and ID:
 
-The id attribute defines an identifier that must be unique in the HTML document (see example below). This allows you to modify a box without modifying boxes with the same tag!
+- The id attribute defines an identifier that must be unique in the HTML document (see example below). This allows you to modify a box without modifying boxes with the same tag!
 
 ```sh
 <div id="exemple"></div>
 ```
 
-The class attribute allows all boxes with the same class (see example below).
-
+- The class attribute allows all boxes with the same class (see example below).
 
 ```sh
 <div class="bloc"></div>
 <div class="bloc"></div>
 ```
 
-How to make a formatting with the CSS file :
+How to make a formatting with the CSS file:
 
-To change the layout of a tag, we write the name of the tag followed by braces.
+- To change the layout of a tag, we write the name of the tag followed by braces.
 
 ```sh
 body {
@@ -168,7 +169,7 @@ body {
 }
 ```
 
-To modify the layout of a single tag (with an id), we write the name of the id preceded by a "#" :
+- To modify the layout of a single tag (with an id), we write the name of the id preceded by a "#" :
 
 ```sh
 \#bloc_col {
@@ -179,41 +180,48 @@ To modify the layout of a single tag (with an id), we write the name of the id p
 }
 ```
 
-Pour modifier la mise en page de plusieurs balise (avec une class) on écrit le nom de la class précédé d’un “.” :
+- To modify the layout of several tags (with a class) we write the name of the class preceded by a ".":
+
+```sh
+.bloc_col {
+    padding-top: 3em;
+    display: bloc;
+    max-width: 60%;
+    margin: 0 auto;
+}
+```
+
+All the proprieties between the braces (e.g: font-size, color, ...) allow you to modify the layout of the web page.
+
+Exercices :
+
+1. Center the title and subtitle and modify their fonts.<br/>
+2. Remove the bullets and highlighting from each item on the list. Put the words in the list in black. <br/>
+3. Change the size of the image. Place it as you wish.<br/>
+4. Change the text size, font and bold.<br/>
+5. change the background of your site.
+
+
+To go further:
+1. Create a one-line navigation bar that for each word redirects us to another page.<br/>
+2. Create a new HTML page requesting confirmation of access to the site, it should precede the page you have created.<br/>
+3. Place the text under the image to the right of it (you will have 2 columns after this modification).<br/>
 
 
 
-Toutes les propriétés présentes entre les accolades (ex: font-size, color, etc.)  permettent de modifier la mise en page de la page web. 
-
-All the proprieties between the braces (e.g: font-sz)
 
 
-
-
-
-
-
-
-
-
-How to make a mobile friendly site:
+## _How to make a mobile friendly site:_
 
 You can add in the head:
-
+```sh
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+```
 This line will resize the page for the mobile version.
 
 But in general this is not enough, so we can specify in the CSS a specific layout that only applies on mobile:
-
+```sh
 @media only screen and (max-width: 600px) {
 // put here CSS class
 } 
-
-
-
-
-
-
-
-
+```
