@@ -205,7 +205,7 @@ All the proprieties between the braces (e.g: font-size, color, ...) allow you to
 Exercices :
 
 1. Center the title and subtitle and modify their fonts.<br/>
-2. Remove the bullets and highlighting from each item on the list. Put the words in the list in black. <br/>
+2. Remove the bullets and highlighting from each item on the list.<br/>
 3. Change the size of the image. Place it as you wish.<br/>
 4. Change the text size, font and bold.<br/>
 5. change the background of your site.
