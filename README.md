@@ -125,7 +125,7 @@ _Warning: some sites do not have a header._
 
 ## Exercises:
 
-1. Display a title <br/>
+1. Display a title in the body <br/>
 2. Displaying a subtitle <br/>
 3. Make a comprehensive list of your 3 favorite dishes in a box ``` <div> ```.<br/>
 4. Add an image and its caption <br/>
