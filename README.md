@@ -1,8 +1,8 @@
 # Workshop HTML / CSS
 
-[HTML]()
-[CSS](https://www.google.com)
-[Mobile Friendly](https://www.google.com)
+[What is HTML?](https://github.com/loic-deyssautier/Workshop-html-css#what-is-html)
+[What is CSS?](https://github.com/loic-deyssautier/Workshop-html-css#what-is-css)
+[How to make a mobile friendly site:](https://github.com/loic-deyssautier/Workshop-html-css#how-to-make-a-mobile-friendly-site)
 
 ## _What is HTML?_
 
