@@ -18,7 +18,7 @@ Note that a tag does not necessarily have content and can be unique
 ```
 The minimal content of an HTML file:
 
-![Screenshot](img/img1.png)
+
 
     - The <!DOCTYPE> tag is used to indicate the version of the HTML used.
     - The <html> / </html> tag will contain all the HTML content of the page.
@@ -121,9 +121,9 @@ Le CSS est un langage informatique permettant de mettre en forme un fichier HTML
 
 
 
-
 Le CSS peut être placé dans un fichier à part avec l'extension .css
 Pour lier un fichier CSS à un document HTML placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
+
 
 
 Class et ID :
@@ -131,8 +131,8 @@ Class et ID :
 L’attribut ID définit un identifiant qui doit être unique dans le document HTML (voir exemple ci-dessous). Celui-ci permet de modifier une box sans modifier les box ayant la même balise!
 
 
-L’attribut class permet de modifier toutes les box ayant la même class (voir exemple ci-dessous)..
 
+L’attribut class permet de modifier toutes les box ayant la même class (voir exemple ci-dessous)..
 
 
 
@@ -140,7 +140,7 @@ Comment réaliser une mise en page grâce au fichier CSS :
 
 Pour modifier la mise en page d’une balise, on écrit le nom de la balise suivie d’accolade.
 
-    
+
 
 Pour modifier la mise en page d’une balise unique (avec un id), on écrit le nom de l’id précédé par un “#” :
 
