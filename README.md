@@ -34,12 +34,12 @@ The minimal content of an HTML file:
 </html>
 ```
 
-- The ``` <!DOCTYPE> ``` tag is used to indicate the version of the HTML used.
-- The ``` <html> / </html> ``` tag will contain all the HTML content of the page.
-- The ``` <head> / </head> ``` tag provides general information about the document (e.g. page title, link to CSS file, etc.).
+- The ``` <!DOCTYPE> ``` tag is used to indicate the version of the HTML document used.
+- The ``` <html> / </html> ``` tag will contain all the HTML content of the document.
+- The ``` <head> / </head> ``` tag provides general information about the HTML document (e.g. page title, link to CSS file, etc.).
 - The ``` <meta ... /> ``` tag is used to place metadata in an HTML document, the charset is used to define the encoding of the page 
 - The ``` <title> / </title> ``` tag as its name suggests, contains the title of the page.
-- The ``` <body> / </body> ``` tag contains the content of the web page (it is in this tag that we could add other tags to display content on our web page).
+- The ``` <body> / </body> ``` tag contains the content of the HTML document (it is in this tag that we could add other tags to display content on our HTML document).
 
 
 
@@ -137,7 +137,7 @@ _Warning: some sites do not have a header._
 
 ## _What is CSS?_
 
-CSS is a computer language used to format an HTML file.
+CSS is a computer language used to format an HTML document.
 
 ![with or without css](img/img1.png)
 
