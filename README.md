@@ -172,7 +172,7 @@ body {
 - To modify the layout of a single tag (with an id), we write the name of the id preceded by a "#" :
 
 ```sh
-\#bloc_col {
+#bloc_col {
     padding-top: 3em;
     display: bloc;
     max-width: 60%;
