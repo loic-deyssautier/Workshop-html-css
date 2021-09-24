@@ -22,19 +22,23 @@ The minimal content of an HTML file:
 <!DOCTYPE>
 <html>
     <head>
+        <meta charset="utf_8" />
+        <title>TITRE</title>
     </head>
+    <body>
+    </body>
 </html>
 ```
 
-- The <!DOCTYPE> tag is used to indicate the version of the HTML used.
-- The <html> / </html> tag will contain all the HTML content of the page.
-- The <head> / </head> tag provides general information about the document (e.g. page title, link to CSS file, etc.).
-- The <meta ... /> tag is used to place metadata in an HTML document, the charset is used to define the encoding of the page 
-- The <title> / </title> tag as its name suggests, contains the title of the page.
-- The <body> / </body> tag contains the content of the web page (it is in this tag that we could add other tags to display content on our web page).
+- The ``` <!DOCTYPE> ``` tag is used to indicate the version of the HTML used.
+- The ``` <html> / </html> ``` tag will contain all the HTML content of the page.
+- The ``` <head> / </head> ``` tag provides general information about the document (e.g. page title, link to CSS file, etc.).
+- The ``` <meta ... /> ``` tag is used to place metadata in an HTML document, the charset is used to define the encoding of the page 
+- The ``` <title> / </title> ``` tag as its name suggests, contains the title of the page.
+- The ``` <body> / </body> ``` tag contains the content of the web page (it is in this tag that we could add other tags to display content on our web page).
 
 
-It is important to know that tags can nest, in the example above, the <html> tag contains the <head> and <body> tag, as for the <head> tag, it contains the <meta> and <title> tag
+It is important to know that tags can nest, in the example above, the ``` <html> ``` tag contains the ``` <head> ``` and ``` <body> ``` tag, as for the ``` <head> ``` tag, it contains the ``` <meta> ``` and ``` <title> ``` tag
 
 Some useful tags:
 Text tag:
@@ -121,11 +125,11 @@ Make a descriptive text under the image and in agreement with it!
 Create a footer in which you will display: © followed by the current year and a name.
 
 
-Qu’est-ce que le CSS :
+What is CSS :
 
-Le CSS est un langage informatique permettant de mettre en forme un fichier HTML.
+CSS is a computer language used to format an HTML file.
 
-
+CSS can be placed in a separate file with .css extention.
 
 Le CSS peut être placé dans un fichier à part avec l'extension .css
 Pour lier un fichier CSS à un document HTML placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
