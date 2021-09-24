@@ -38,7 +38,12 @@ The minimal content of an HTML file:
 - The ``` <body> / </body> ``` tag contains the content of the web page (it is in this tag that we could add other tags to display content on our web page).
 
 
-It is important to know that tags can nest, in the example above, the ``` <html> ``` tag contains the ``` <head> ``` and ``` <body> ``` tag, as for the ``` <head> ``` tag, it contains the ``` <meta> ``` and ``` <title> ``` tag
+
+
+It is important to know that tags can nest, in the example above, the ``` <html> ``` tag contains the ``` <head> ``` and ``` <body> ``` tag.
+As for the ``` <head> ``` tag, it contains the ``` <meta> ``` and ``` <title> ``` tag.
+Thus the site is broken down into nestable boxes with their contents.
+
 
 Some useful tags:
 - Text tag:
@@ -132,8 +137,8 @@ CSS is a computer language used to format an HTML file.
 
 CSS can be placed in a separate file with the .css extension.
 
-Pour lier un fichier CSS à un document HTML, placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
-To link a CSS file to a HTML document, 
+Pour lier un fichier CSS à un document HTML, placez une balise unique <link/> avec un attribut rel=”stylesheet” et href=”lien du fichier” dans la balise <head>
+To link a CSS file to a HTML document, place a unique <link/> tag with a rel=”stylesheet” attribute and href="file link" in the tag <head>
 
 Class and ID:
 
