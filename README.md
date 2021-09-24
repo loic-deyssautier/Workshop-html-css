@@ -90,7 +90,7 @@ The next tags will address this notion.
 
 - Box containing the page header (top part of the page):
 ```sh
-<header></header>: header (top part of the page).
+<header>Content</header>: header (top part of the page).
 ```
 _Warning: some sites do not have a header._
 
