@@ -134,29 +134,50 @@ What is CSS :
 
 CSS is a computer language used to format an HTML file.
 
+![with or without css](img/img1.png)
+
 CSS can be placed in a separate file with the .css extension.
 
 To link a CSS file to an HTML document, place a unique <link/> tag with a rel=”stylesheet” attribute and href="file link" in the tag <head>
 
 Class and ID:
 
-L’attribut ID définit un identifiant qui doit être unique dans le document HTML (voir exemple ci-dessous). Celui-ci permet de modifier une box sans modifier les box ayant la même balise!
+The id attribute defines an identifier that must be unique in the HTML document (see example below). This allows you to modify a box without modifying boxes with the same tag!
 
-The ID attribute defines an identifier that must be unique in the HTML document (see example below). This allows you to modify a box without modifying boxes with the same tag!
+```sh
+<div id="exemple"></div>
+```
 
-L’attribut class permet de modifier toutes les box ayant la même class (voir exemple ci-dessous)..
-
-
-
-Comment réaliser une mise en page grâce au fichier CSS :
-
-Pour modifier la mise en page d’une balise, on écrit le nom de la balise suivie d’accolade.
+The class attribute allows all boxes with the same class (see example below).
 
 
+```sh
+<div class="bloc"></div>
+<div class="bloc"></div>
+```
+
+How to make a formatting with the CSS file :
+
+To change the layout of a tag, we write the name of the tag followed by braces.
+
+```sh
+body {
+    font-size: 20px;
+    font-family : 'poiret';
+    font-weight: bold;
+}
+```
 
 Pour modifier la mise en page d’une balise unique (avec un id), on écrit le nom de l’id précédé par un “#” :
 
-
+```sh
+\#bloc_col {
+    padding-top: 3em;
+    display: bloc;
+    max-width: 60%;
+    margin: 0 auto
+}
+```
 
 Pour modifier la mise en page de plusieurs balise (avec une class) on écrit le nom de la class précédé d’un “.” :
 
@@ -164,6 +185,7 @@ Pour modifier la mise en page de plusieurs balise (avec une class) on écrit le 
 
 Toutes les propriétés présentes entre les accolades (ex: font-size, color, etc.)  permettent de modifier la mise en page de la page web. 
 
+All the proprieties between the braces (e.g. )
 
 
 
@@ -174,19 +196,18 @@ Toutes les propriétés présentes entre les accolades (ex: font-size, color, et
 
 
 
+How to make a mobile friendly site:
 
-Comment faire un site mobile friendly :
-
-Vous pouvez rajouter dans le head :
+You can add in the head:
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Cette ligne va redimensionner la page pour mobile.
+This line will resize the page for the mobile version.
 
-Mais en général cela ne suffit pas, nous pouvons ainsi préciser dans le CSS une mise en page spécifique qui ne s'appliquerait seulement sur mobile:
+But in general this is not enough, so we can specify in the CSS a specific layout that only applies on mobile:
 
 @media only screen and (max-width: 600px) {
-// mettre des class CSS     
+// put here CSS class
 } 
 
 
