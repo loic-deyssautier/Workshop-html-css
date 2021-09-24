@@ -125,7 +125,7 @@ Creating a table:
 6. Make a descriptive text under the image and in agreement with it! <br/>
 7. Create a footer in which you will display: © followed by the current year and a name. <br/>
 
-
+<br/>
 What is CSS :
 
 CSS is a computer language used to format an HTML file.
@@ -133,7 +133,7 @@ CSS is a computer language used to format an HTML file.
 CSS can be placed in a separate file with the .css extension.
 
 Pour lier un fichier CSS à un document HTML placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
-To link a CSS file to a CSS
+To link a CSS file to a HTML document 
 
 Class and ID:
 
