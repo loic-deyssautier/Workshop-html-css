@@ -62,7 +62,7 @@ A tag can be configured, thanks to attributes and an attribute takes a parameter
 ```sh
 <TAG [ATTRIBUTE 1] [ATTRIBUTE 2] > CONTENT</TAG>
 ```
-[ATTRIBUT x] => ATTRIBUT_NAME="PARAMETER".
+``` [ATTRIBUT x] => ATTRIBUT_NAME="PARAMETER".```<br/>
 The next tags will address this notion.
 
 Creating a hyperlink to another web page (redirection):
@@ -132,8 +132,8 @@ CSS is a computer language used to format an HTML file.
 
 CSS can be placed in a separate file with the .css extension.
 
-Pour lier un fichier CSS à un document HTML placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
-To link a CSS file to a HTML document 
+Pour lier un fichier CSS à un document HTML, placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
+To link a CSS file to a HTML document, 
 
 Class and ID:
 
