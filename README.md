@@ -1,6 +1,10 @@
 # Workshop HTML / CSS
 
-## _Qu’est-ce que l’HTML ?_
+[HTML]()
+[CSS](https://www.google.com)
+[Mobile Friendly](https://www.google.com)
+
+## _What is HTML?
 
 HTML is a markup language used to create web pages.
 
