@@ -134,7 +134,8 @@ _Warning: some sites do not have a header._
 7. Create a footer in which you will display: © followed by the current year and a name. <br/>
 
 <br/>
-## _What is CSS :_
+
+## _What is CSS?_
 
 CSS is a computer language used to format an HTML file.
 
