@@ -50,9 +50,13 @@ Thus the site is broken down into nestable boxes with their contents.<br/>
 
 
 Some useful tags:
-- Text tag:
+- Title tag:
 ```sh
     <h1>Content</h1> to <h6>Content</h6>
+```
+_Note that the number defines the size of the title._
+- Text tag:
+```
     <p>Content</p>
 ```
 - line break:
