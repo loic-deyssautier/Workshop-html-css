@@ -41,22 +41,22 @@ The minimal content of an HTML file:
 It is important to know that tags can nest, in the example above, the ``` <html> ``` tag contains the ``` <head> ``` and ``` <body> ``` tag, as for the ``` <head> ``` tag, it contains the ``` <meta> ``` and ``` <title> ``` tag
 
 Some useful tags:
-Text tag:
+- Text tag:
 ```sh
-<h1>Content</h1> to <h6>Content</h6>
-<p>Content</p>
+    <h1>Content</h1> to <h6>Content</h6>
+    <p>Content</p>
 ```
-line break:
+- line break:
 ```sh
-<br>
+    <br>
 ```
-Bulleted list creation:
+- Bulleted list creation:
 ```sh
-<ul>
-    <li>EPITECH</li>
-    <li>E-ARTSUP</li>
-    <li>ISEG</li>
-</ul>
+    <ul>
+        <li>EPITECH</li>
+        <li>E-ARTSUP</li>
+        <li>ISEG</li>
+    </ul>
 ```
 A tag can be configured, thanks to attributes and an attribute takes a parameter
 ```sh
