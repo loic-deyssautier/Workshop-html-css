@@ -119,7 +119,7 @@ Creating a table:
 
 1. Display a title <br/>
 2. Displaying a subtitle <br/>
-3. Make a comprehensive list of your 3 favorite dishes in a box <div>.
+3. Make a comprehensive list of your 3 favorite dishes in a box ``` <div> ```.<br/>
 4. Add an image and its caption <br/>
 5. Create a link on the image so that we are redirected to a site consistent with it. <br/>
 6. Make a descriptive text under the image and in agreement with it! <br/>
@@ -133,7 +133,7 @@ CSS is a computer language used to format an HTML file.
 CSS can be placed in a separate file with the .css extension.
 
 Pour lier un fichier CSS à un document HTML placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
-To link a CSS file 
+To link a CSS file to a CSS
 
 Class and ID:
 
