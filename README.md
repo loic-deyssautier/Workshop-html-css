@@ -19,6 +19,7 @@ Note that a tag does not necessarily have content and can be unique
 The minimal content of an HTML file:
 
 ![Screenshot](img/img1.png)
+
     - The <!DOCTYPE> tag is used to indicate the version of the HTML used.
     - The <html> / </html> tag will contain all the HTML content of the page.
     - The <head> / </head> tag provides general information about the document (e.g. page title, link to CSS file, etc.).
