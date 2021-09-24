@@ -168,14 +168,14 @@ body {
 }
 ```
 
-Pour modifier la mise en page d’une balise unique (avec un id), on écrit le nom de l’id précédé par un “#” :
+To modify the layout of a single tag (with an id), we write the name of the id preceded by a "#" :
 
 ```sh
 \#bloc_col {
     padding-top: 3em;
     display: bloc;
     max-width: 60%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 ```
 
@@ -185,7 +185,7 @@ Pour modifier la mise en page de plusieurs balise (avec une class) on écrit le 
 
 Toutes les propriétés présentes entre les accolades (ex: font-size, color, etc.)  permettent de modifier la mise en page de la page web. 
 
-All the proprieties between the braces (e.g. )
+All the proprieties between the braces (e.g: font-sz)
 
 
 
