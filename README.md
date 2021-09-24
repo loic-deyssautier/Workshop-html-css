@@ -70,38 +70,37 @@ A tag can be configured, thanks to attributes and an attribute takes a parameter
 ``` [ATTRIBUT x] => ATTRIBUT_NAME="PARAMETER".```<br/>
 The next tags will address this notion.
 
-Creating a hyperlink to another web page (redirection):
+- Creating a hyperlink to another web page (redirection):
 ```sh
 <a href="site link">Content</a> 
 ```
 
-Adding an image:
+- Adding an image:
 ```sh
 <img src="image link" alt="image caption">
 ```
 
-Box containing the page header (top part of the page):
+- Box containing the page header (top part of the page):
 ```sh
 <header></header>: header (top part of the page).
 ```
-Warning: some sites do not have a header.
+_Warning: some sites do not have a header._
 
-Box containing the footer (bottom part of the page).
+- Box containing the footer (bottom part of the page).
 ```sh
 <footer>Content</footer>
 ```
-Box containing the navigation bar
+- Box containing the navigation bar
 ```sh
 <nav>Content</nav>
 ```
-Creation of a new box:
+- Creation of a new box:
 ```sh
 <article>Content</article>
 <div>Content</div>
 ```
 
-
-Creating a table:
+- Creating a table:
 ```sh
 <table>
     <tr>
@@ -143,7 +142,7 @@ Class and ID:
 
 L’attribut ID définit un identifiant qui doit être unique dans le document HTML (voir exemple ci-dessous). Celui-ci permet de modifier une box sans modifier les box ayant la même balise!
 
-id attribute defines an identifier that must be unique in the HTML document (see)
+The ID attribute defines an identifier that must be unique in the HTML document (see example below). This allows you to modify a box without modifying boxes with the same tag!
 
 L’attribut class permet de modifier toutes les box ayant la même class (voir exemple ci-dessous)..
 
