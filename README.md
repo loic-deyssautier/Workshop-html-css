@@ -117,26 +117,25 @@ Creating a table:
 
 ## Exercises:
 
-Display a title 
-Displaying a subtitle
-Add an image and its caption
-Create a link on the image so that we are redirected to a site consistent with it.
-Make a descriptive text under the image and in agreement with it!
-Create a footer in which you will display: © followed by the current year and a name.
+1. Display a title <br/>
+2. Displaying a subtitle <br/>
+3. Make a comprehensive list of your 3 favorite dishes in a box <div>.
+4. Add an image and its caption <br/>
+5. Create a link on the image so that we are redirected to a site consistent with it. <br/>
+6. Make a descriptive text under the image and in agreement with it! <br/>
+7. Create a footer in which you will display: © followed by the current year and a name. <br/>
 
 
 What is CSS :
 
 CSS is a computer language used to format an HTML file.
 
-CSS can be placed in a separate file with .css extention.
+CSS can be placed in a separate file with the .css extension.
 
-Le CSS peut être placé dans un fichier à part avec l'extension .css
 Pour lier un fichier CSS à un document HTML placez une balise unique <link/> avec un attribut rel=”stylesheet” et href =”lien du fichier” dans la balise <head>
+To link a CSS file 
 
-
-
-Class et ID :
+Class and ID:
 
 L’attribut ID définit un identifiant qui doit être unique dans le document HTML (voir exemple ci-dessous). Celui-ci permet de modifier une box sans modifier les box ayant la même balise!
 
