@@ -4,7 +4,7 @@
 [CSS](https://www.google.com)
 [Mobile Friendly](https://www.google.com)
 
-## _What is HTML?
+## _What is HTML?_
 
 HTML is a markup language used to create web pages.
 
