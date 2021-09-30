@@ -145,7 +145,7 @@ CSS is a computer language used to format an HTML document.
 
 ![with or without css](img/img1.png)
 
-CSS can be placed in a separate file with the .css extension.
+CSS can be placed in a separate file with the .css extension. It is a good practice.
 
 To link a CSS file to an HTML document, place a unique ``` <link/> ``` tag with a ``` rel=”stylesheet” ``` attribute and ``` href="file link" ``` in the tag ``` <head> ```
 ```sh
@@ -204,6 +204,7 @@ All the proprieties between the braces (e.g: font-size, color, ...) allow you to
 
 Exercices :
 
+0. Create a .css file named "style.css".<br/>
 1. Center the title and subtitle and modify their fonts.<br/>
 2. Remove the bullets from each item on the list.<br/>
 3. Change the size of the image. Place it as you wish.<br/>
