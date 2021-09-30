@@ -2,7 +2,7 @@
 
 [What is HTML?](https://github.com/loic-deyssautier/Workshop-html-css#what-is-html) <br/>
 [What is CSS?](https://github.com/loic-deyssautier/Workshop-html-css#what-is-css) <br/>
-[How to make a mobile friendly site:](https://github.com/loic-deyssautier/Workshop-html-css#how-to-make-a-mobile-friendly-site) <br/>
+[How to make a mobile friendly site:](https://github.com/loic-deyssautier/Workshop-html-css#how-to-make-a-mobile-friendly-site-) <br/>
 
 ## _What is HTML?_
 
@@ -131,7 +131,7 @@ _Warning: some sites do not have a header._
 
 1. Display a title in the body <br/>
 2. Displaying a subtitle <br/>
-3. Make a comprehensive list of your 3 favorite dishes in a box ``` <div> ```.<br/>
+3. Make a comprehensive list of your 3 favorite dishes in a box.<br/>
 4. Add an image and its caption <br/>
 5. Create a link on the image so that we are redirected to a site consistent with it. <br/>
 6. Make a descriptive text under the image and in agreement with it! <br/>
