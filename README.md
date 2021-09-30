@@ -205,7 +205,7 @@ All the proprieties between the braces (e.g: font-size, color, ...) allow you to
 Exercices :
 
 1. Center the title and subtitle and modify their fonts.<br/>
-2. Remove the bullets and highlighting from each item on the list.<br/>
+2. Remove the bullets from each item on the list.<br/>
 3. Change the size of the image. Place it as you wish.<br/>
 4. Change the text size, font and bold.<br/>
 5. change the background of your site.
@@ -213,14 +213,15 @@ Exercices :
 
 To go further:
 1. Create a one-line navigation bar that for each word redirects us to another page.<br/>
-2. Create a new HTML page requesting confirmation of access to the site, it should precede the page you have created.<br/>
-3. Place the text under the image to the right of it (you will have 2 columns after this modification).<br/>
+2. remove highlighting and change the font color to black.
+3. Create a new HTML page requesting confirmation of access to the site, it should precede the page you have created.<br/>
+4. Place the text under the image to the right of it (you will have 2 columns after this modification).<br/>
 
 
 
 
 
-## _How to make a mobile friendly site:_
+## _How to make a mobile friendly site :_
 
 You can add in the head:
 ```sh
@@ -232,5 +233,5 @@ But in general this is not enough, so we can specify in the CSS a specific layou
 ```sh
 @media only screen and (max-width: 600px) {
 // put here CSS class
-} 
+}
 ```
